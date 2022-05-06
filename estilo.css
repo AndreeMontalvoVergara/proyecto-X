@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+	font-family: 'open sans';
+}
+
+body{
+	min-height: 100vh;
+	background:url(https://storage.cloud.google.com/proyecto03/img/big.jpg) no-repeat center fixed;
+	background-size: cover;
+	background-attachment: fixed;
+     
+	
+}
+
+form {
+	padding: 50px 20px;
+	background: rgba(41, 38, 38, 0.6);;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+	
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(223, 236, 236)
+}
+
+input {
+	background: rgba(41, 38, 38, 0.6);
+	color: #fff;
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: rgba(41, 38, 38, 0.6);
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border-radius: 0%;
+	cursor: pointer;
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: rgba(41, 38, 38, 0.6);
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: rgba(41, 38, 38, 0.6);
+	color: #fff
+}
